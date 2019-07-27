@@ -1,0 +1,349 @@
+
+#root{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.box{
+    padding: 30px;
+    margin:0 auto;
+    width:500px
+}
+.box-controller{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.13);
+    justify-content: space-around;
+    display: flex;
+    /* padding: 10px;
+    border-bottom: 2px solid rgb(78, 149, 222); */
+}
+
+.danger-text{
+    color:red;
+    margin-left: 60px;
+}
+.pwd-weak{
+    background: red;
+    
+}
+.pwd-medium{
+    background: orange;
+}
+.pwd-strong{
+    background: green
+}
+
+.pwd{
+    width: 200px;
+}
+
+.progressBar{
+    padding-left: 30%;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+}
+
+.show{
+    display:block;
+    height: 10px;
+    
+}
+.controller{
+    
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+    
+}
+
+
+.controller-border{
+    border-bottom: 2px solid rgb(78, 149, 222);
+}
+/* .controller:hover{
+    mouse
+} */
+
+.form-box{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.13);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.form-controller{
+    text-align: center;
+}
+.form-controller input{
+    border: 1.5px solid rgb(78, 149, 222);
+}
+
+.form-controller button{
+    border: 1.5px solid rgb(78, 149, 222);
+    font-size:20px;
+    padding:5px;
+    width: 40%
+}
+.logTitle{
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(78, 149, 222);
+}
+
+.RegTitle{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(78, 149, 222);
+}
+
+.form-group{
+    padding: 10px;
+}
+
+.input-group{
+    padding-top: 10px;
+}
+.btn-primary{
+    font-weight: 500;
+    border-radius: 2px;
+    background: #007bff;
+    padding: 6px;
+
+
+}
+/* .section-1{
+    background: #fbcd89;
+} */
+.content{
+    background:#fff;
+}
+.submit{
+    background:rgb(78, 149, 222);
+    color:#fff
+}
+.form-field{
+    padding: 10px 60px 10px 0px;
+  }
+  
+  button{
+    border-radius: 2px;
+    padding: 7px;
+    width: 70px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+  }
+  button:hover{
+    
+    cursor: pointer;
+  }
+  
+ 
+  
+  .controller{
+    cursor:pointer;
+  }
+  .navitems ul li:hover{
+    background: rgb(0,0,0,0.3);
+    cursor: pointer;
+  }
+  .hob{
+    padding: 0px 50px;
+  }
+  
+  h5{
+    line-height: 2;
+      text-align: center;
+      background: #ff57220d;
+      padding: 5px;
+  }
+  
+  h4{
+    text-align:center;
+  }
+  header{
+    background: #040c38;
+  }
+  .navitems span{
+      padding:5px 12px;
+      border:1px solid orange;
+  }
+  
+  
+.navbar{
+    justify-content: space-around;
+      display: flex;
+      z-index: 1;
+      box-shadow: 0px 2px 0px 0px rgb(0,0,0,0.3);
+  }
+  .navitems ul li{
+    list-style: none;
+    
+  }
+  .navlogo{
+    color:orange;
+  }
+  section .section-div .hubbies li{
+  list-style: none;
+  padding:10px;
+  }
+  
+  .content{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 4vmin;
+  }
+  /* input[type="text"]{ padding: 0px 30px; line-height: 30px; } */
+
+  
+  /* button{
+    padding: 7px;
+    width: 70px;
+    background: #9C27B0;
+    border: 1px solid #9C27B0;
+  } */
+  button:hover{
+    
+    cursor: pointer;
+  }
+  
+  .logout{
+    word-spacing: 3px;
+    border: 1px solid orange; 
+     padding: 0px 10px;
+    color: #fff;
+    
+    
+  }
+  
+  .controller{
+    cursor:pointer;
+  }
+  .navitems span:hover{
+    background:black;
+    color:white;
+    border:1px solid black;
+  
+    cursor: pointer;
+  }
+  .logout:hover{
+    cursor: pointer;
+    background:black;
+    color:white;
+    border:1px solid black;
+}
+.deleteHobby:hover{
+  cursor: pointer;
+  background:black;
+  color:white;
+  border:1px solid black;
+}
+.loginLink{
+  cursor: pointer;;
+  color:blue
+}
+  .hob{
+    padding: 0px 50px;
+  }
+  
+  h5{
+    line-height: 2;
+      text-align: center;
+      background: #ff57220d;
+      padding: 5px;
+  }
+  
+  h4{
+    text-align:center;
+  }
+  .hubbies{
+      text-align: center;
+  }
+  .textClass{
+    display: flex;
+    justify-content: space-between;
+  }
+  .disPage{
+    border-bottom: 5px solid #fff;
+      padding: 10px 70px;
+      background: #f3f3f3;
+
+  }
+  .section-hobby{
+    background: #f3f3f3;
+    border-bottom: 4px solid #fff;
+  }
+  .hobbyClass{
+      margin-bottom: 10px;
+      line-height: 2;
+      font-size: 1.2rem;
+  }
+  .hobby-form-group{
+    padding: 10px 15%;
+  }
+  .no-hobby{
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .field-input{
+    padding-bottom: 10px;
+  }
+  .holder{
+    
+    padding: 0px 100px;
+  }
+  .items{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .deleteHobby{
+    background: red;
+    padding: 2px 8px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+
+  @media screen and (max-width: 480px) {
+    .content {
+        width: 100%; 
+        margin: auto;
+        padding: 10px;
+        border-top: 0px solid white;
+        margin-top: 4vmin;
+    }
+    .holder{
+      padding:0px;
+        width:100%;
+        margin: 20px 0px;
+
+      
+    }
+
+    h4{
+      font-size: 12px;
+      font-weight: 700;
+      
+    }
+    .hobby-form-group{
+    padding:10px;
+    }
+    }
+    @media screen and (max-width: 480px) {
+      .navlogo{
+        font-size:15px
+      }
+        .hobbyClass {
+            font-size: 1.2rem;
+        }
+        .deleteHobby{
+            font-size: 13px;
+        }
+        }
+ 
+
+/* .form-control{
+    margin-left: 10px;
+} */
