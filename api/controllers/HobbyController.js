@@ -8,7 +8,7 @@ var ObjectId = require('mongodb').ObjectID;
 const _ = require("lodash")
 const twilio = require("twilio")
 const sgMail = require('@sendgrid/mail')
-const SEND_API_KEY ='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'
+const SEND_API_KEY =
  sgMail.setApiKey(SEND_API_KEY)
 
 // "concurrently \"npm run server\" \"npm run client\""
